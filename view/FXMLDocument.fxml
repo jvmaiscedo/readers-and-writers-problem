@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <ImageView fx:id="pauseProfessor1" fitHeight="800.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../img/background.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="professor1front" fitHeight="140.0" fitWidth="77.0" layoutX="4.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/professor1front.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="student1udr" fitHeight="237.0" fitWidth="124.0" layoutX="636.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/student1udr.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="professor1back" fitHeight="140.0" fitWidth="77.0" layoutX="310.0" layoutY="271.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/professor1back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="student1back" fitHeight="150.0" fitWidth="58.0" layoutX="412.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/student1back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="student2udr" fitHeight="237.0" fitWidth="124.0" layoutX="697.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/student2udr.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="student2back" fitHeight="150.0" fitWidth="58.0" layoutX="383.0" layoutY="309.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/student2back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="student3udr" fitHeight="237.0" fitWidth="124.0" layoutX="692.0" layoutY="-26.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/student3udr.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="student3back" fitHeight="150.0" fitWidth="58.0" layoutX="441.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/student3back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="student4udr" fitHeight="237.0" fitWidth="124.0" layoutX="695.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/student4udr.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="student4back" fitHeight="150.0" fitWidth="58.0" layoutX="348.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/student4back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="student5udr" fitHeight="237.0" fitWidth="124.0" layoutX="608.0" layoutY="23.0" pickOnBounds="true" visible="false">
+         <image>
+            <Image url="@../img/student5udr.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="student5back" fitHeight="150.0" fitWidth="58.0" layoutX="470.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/student5back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="professor2back" fitHeight="140.0" fitWidth="77.0" layoutX="318.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/professor2back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="professor3back" fitHeight="140.0" fitWidth="77.0" layoutX="294.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/professor3back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="professor4back" fitHeight="140.0" fitWidth="77.0" layoutX="326.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/professor4back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="professor5back" fitHeight="140.0" fitWidth="77.0" layoutX="336.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/professor5back.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="dataBaseText" alignment="TOP_LEFT" contentDisplay="TOP" graphicTextGap="2.0" layoutX="418.0" layoutY="141.0" prefHeight="82.0" prefWidth="65.0" rotate="9.5" textFill="WHITE">
+         <font>
+            <Font name="KacstDigital" size="8.0" />
+         </font></Label>
+      <Label fx:id="drTextStudent1" contentDisplay="TOP" graphicTextGap="2.0" layoutX="690.0" layoutY="135.0" prefHeight="28.0" prefWidth="49.0">
+         <font>
+            <Font size="6.0" />
+         </font>
+      </Label>
+      <Label fx:id="drTextStudent2" contentDisplay="TOP" graphicTextGap="2.0" layoutX="751.0" layoutY="257.0" prefHeight="28.0" prefWidth="49.0">
+         <font>
+            <Font size="6.0" />
+         </font>
+      </Label>
+      <Label fx:id="drTextStudent3" contentDisplay="TOP" graphicTextGap="2.0" layoutX="746.0" layoutY="9.0" prefHeight="28.0" prefWidth="49.0">
+         <font>
+            <Font size="6.0" />
+         </font>
+      </Label>
+      <Label fx:id="drTextStudent4" contentDisplay="TOP" graphicTextGap="2.0" layoutX="745.0" layoutY="127.0" prefHeight="28.0" prefWidth="49.0">
+         <font>
+            <Font size="6.0" />
+         </font>
+      </Label>
+      <Label fx:id="drTextStudent5" contentDisplay="TOP" graphicTextGap="2.0" layoutX="671.0" layoutY="56.0" prefHeight="28.0" prefWidth="49.0">
+         <font>
+            <Font size="6.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="professor2front" fitHeight="140.0" fitWidth="77.0" layoutX="29.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/professor2front.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="professor3front" fitHeight="140.0" fitWidth="77.0" layoutX="59.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/professor3front.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="professor4front" fitHeight="140.0" fitWidth="77.0" layoutX="91.0" layoutY="239.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/professor4front.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="professor5front" fitHeight="140.0" fitWidth="77.0" layoutX="115.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/professor5front.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="61.0" layoutY="536.0" mnemonicParsing="false" onAction="#pauseProf1" prefHeight="26.0" prefWidth="26.0">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/pause.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="1.0" />
+         </font>
+      </Button>
+      <Slider fx:id="thinkingData1" layoutX="59.0" layoutY="568.0" max="10.0" min="1.0" prefHeight="16.0" prefWidth="65.0" rotate="180.0" style="-fx-background-color: green;" />
+      <Slider fx:id="writingData1" layoutX="59.0" layoutY="586.0" max="10.0" min="1.0" prefHeight="16.0" prefWidth="65.0" rotate="180.0" style="-fx-background-color: red;" />
+      <Button layoutX="92.0" layoutY="536.0" mnemonicParsing="false" onAction="#retomarProf1" prefHeight="26.0" prefWidth="26.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/undo.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="61.0" layoutY="620.0" mnemonicParsing="false" onAction="#pauseProf2" prefHeight="26.0" prefWidth="26.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/pause.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="92.0" layoutY="620.0" mnemonicParsing="false" onAction="#retomarProf2" prefHeight="26.0" prefWidth="26.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/undo.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Slider fx:id="thinkingData2" layoutX="61.0" layoutY="652.0" max="10.0" min="1.0" prefHeight="16.0" prefWidth="65.0" rotate="180.0" style="-fx-background-color: green;" />
+      <Slider fx:id="writingData2" layoutX="61.0" layoutY="670.0" max="10.0" min="1.0" prefHeight="16.0" prefWidth="65.0" rotate="180.0" style="-fx-background-color: red;" />
+      <Button layoutX="61.0" layoutY="702.0" mnemonicParsing="false" onAction="#pauseProf3" prefHeight="26.0" prefWidth="26.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/pause.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="92.0" layoutY="702.0" mnemonicParsing="false" onAction="#retomarProf3" prefHeight="26.0" prefWidth="26.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/undo.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Slider fx:id="thinkingData3" layoutX="61.0" layoutY="734.0" max="10.0" min="1.0" prefHeight="16.0" prefWidth="65.0" rotate="180.0" style="-fx-background-color: green;" />
+      <Slider fx:id="writingData3" layoutX="61.0" layoutY="752.0" max="10.0" min="1.0" prefHeight="16.0" prefWidth="65.0" rotate="180.0" style="-fx-background-color: red;" />
+      <Button layoutX="231.0" layoutY="537.0" mnemonicParsing="false" onAction="#pauseProf4" prefHeight="26.0" prefWidth="26.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/pause.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="262.0" layoutY="537.0" mnemonicParsing="false" onAction="#retomarProf4" prefHeight="26.0" prefWidth="26.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/undo.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Slider fx:id="thinkingData4" layoutX="230.0" layoutY="568.0" max="10.0" min="1.0" prefHeight="16.0" prefWidth="65.0" rotate="180.0" style="-fx-background-color: green;" />
+      <Slider fx:id="writingData4" layoutX="230.0" layoutY="586.0" max="10.0" min="1.0" prefHeight="16.0" prefWidth="65.0" rotate="180.0" style="-fx-background-color: red;" />
+      <Button layoutX="231.0" layoutY="702.0" mnemonicParsing="false" onAction="#pauseProf5" prefHeight="26.0" prefWidth="26.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/pause.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="262.0" layoutY="702.0" mnemonicParsing="false" onAction="#retomarProf5" prefHeight="26.0" prefWidth="26.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/undo.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Slider fx:id="thinkingData5" layoutX="230.0" layoutY="734.0" max="10.0" min="1.0" prefHeight="16.0" prefWidth="65.0" rotate="180.0" style="-fx-background-color: green;" />
+      <Slider fx:id="writingData5" layoutX="230.0" layoutY="752.0" max="10.0" min="1.0" prefHeight="16.0" prefWidth="65.0" rotate="180.0" style="-fx-background-color: red;" />
+      <Button layoutX="514.0" layoutY="536.0" mnemonicParsing="false" onAction="#pauseStudent1" prefHeight="26.0" prefWidth="26.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/pause.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="545.0" layoutY="536.0" mnemonicParsing="false" onAction="#retomarStudent1" prefHeight="26.0" prefWidth="26.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/undo.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Slider fx:id="usingDr1" layoutX="514.0" layoutY="568.0" max="10.0" min="1.0" prefHeight="16.0" prefWidth="65.0" rotate="180.0" style="-fx-background-color: green;" />
+      <Slider fx:id="readingData1" layoutX="514.0" layoutY="586.0" max="10.0" min="1.0" prefHeight="16.0" prefWidth="65.0" rotate="180.0" style="-fx-background-color: red;" />
+      <Button layoutX="514.0" layoutY="620.0" mnemonicParsing="false" onAction="#pauseStudent2" prefHeight="26.0" prefWidth="26.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/pause.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="545.0" layoutY="620.0" mnemonicParsing="false" onAction="#retomarStudent2" prefHeight="26.0" prefWidth="26.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/undo.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Slider fx:id="usingDr2" layoutX="514.0" layoutY="652.0" max="10.0" min="1.0" prefHeight="16.0" prefWidth="65.0" rotate="180.0" style="-fx-background-color: green;" />
+      <Slider fx:id="readingData2" layoutX="514.0" layoutY="670.0" max="10.0" min="1.0" prefHeight="16.0" prefWidth="65.0" rotate="180.0" style="-fx-background-color: red;" />
+      <Button layoutX="514.0" layoutY="702.0" mnemonicParsing="false" onAction="#pauseStudent3" prefHeight="26.0" prefWidth="26.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/pause.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="545.0" layoutY="702.0" mnemonicParsing="false" onAction="#retomarStudent3" prefHeight="26.0" prefWidth="26.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/undo.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Slider fx:id="usingDr3" layoutX="514.0" layoutY="734.0" max="10.0" min="1.0" prefHeight="16.0" prefWidth="65.0" rotate="180.0" style="-fx-background-color: green;" />
+      <Slider fx:id="readingData3" layoutX="514.0" layoutY="752.0" max="10.0" min="1.0" prefHeight="16.0" prefWidth="65.0" rotate="180.0" style="-fx-background-color: red;" />
+      <Button layoutX="684.0" layoutY="537.0" mnemonicParsing="false" onAction="#pauseStudent4" prefHeight="26.0" prefWidth="26.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/pause.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="715.0" layoutY="537.0" mnemonicParsing="false" onAction="#retomarStudent4" prefHeight="26.0" prefWidth="26.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/undo.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Slider fx:id="usingDr4" layoutX="686.0" layoutY="568.0" max="10.0" min="1.0" prefHeight="16.0" prefWidth="65.0" rotate="180.0" style="-fx-background-color: green;" />
+      <Slider fx:id="readingData4" layoutX="686.0" layoutY="586.0" max="10.0" min="1.0" prefHeight="16.0" prefWidth="65.0" rotate="180.0" style="-fx-background-color: red;" />
+      <Button layoutX="684.0" layoutY="702.0" mnemonicParsing="false" onAction="#pauseStudent5" prefHeight="26.0" prefWidth="26.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/pause.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="715.0" layoutY="702.0" mnemonicParsing="false" onAction="#retomarStudent5" prefHeight="26.0" prefWidth="26.0">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/undo.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Slider fx:id="usingDr5" layoutX="686.0" layoutY="734.0" max="10.0" min="1.0" prefHeight="16.0" prefWidth="65.0" rotate="180.0" style="-fx-background-color: green;" />
+      <Slider fx:id="readingData5" layoutX="686.0" layoutY="752.0" max="10.0" min="1.0" prefHeight="16.0" prefWidth="65.0" rotate="180.0" style="-fx-background-color: red;" />
+      <ImageView fx:id="student1front" fitHeight="117.0" fitWidth="58.0" layoutX="642.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/student1front.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="student2front" fitHeight="117.0" fitWidth="58.0" layoutX="660.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/student2front.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="student3front" fitHeight="117.0" fitWidth="58.0" layoutX="674.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/student3front.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="student4front" fitHeight="117.0" fitWidth="58.0" layoutX="695.0" layoutY="307.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/student4front.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="student5front" fitHeight="117.0" fitWidth="58.0" layoutX="643.0" layoutY="307.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/student5front.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="371.0" layoutY="758.0" mnemonicParsing="false" onAction="#restart" prefHeight="40.0" prefWidth="80.0">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/restart.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="1.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
